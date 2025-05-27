@@ -5,4 +5,4 @@ RUN npm install
 COPY . .
 RUN npm run test
 EXPOSE 8000
-CMD ["node","package.json"]
+CMD ["node","app.js"]
